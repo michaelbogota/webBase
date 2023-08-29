@@ -1,0 +1,90 @@
+html, body, *{
+    font-family: sans-serif;
+}
+
+.pic{
+    display: block;
+    width: 200px;
+    height: 300px;
+    margin: 0 auto 25px;
+}
+.pic img{
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+nav ul{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+nav ul li{
+    border-radius: 0;
+    font-size: 24px;
+    display: inline-block;
+    margin: 5px;
+    background-color: #e74c3c;
+    padding: 10px 20px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 17px;
+    display: block;
+}
+
+.cnt2,
+section{
+    width: 700px;
+    margin: 0 auto;
+}
+
+.cnt{
+    width: 100%;
+    display: block;
+    overflow: hidden;
+}
+.cnt p{
+    width: calc(33% - 20px);
+    float: left;
+    margin-right: 20px;
+    text-align: justify;
+}
+
+.cnt p:last-child{
+    margin-right: 0;
+}
+
+.cnt p b {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.cnt2 .card{
+    width: calc(50% - 10px);
+    float: left;
+    padding-right: 10px;
+}
+
+.cnt2 .card:last-child{
+    padding-right: 0;
+}
+
+.cnt2 .card .title{
+    display: block;
+}
+
+.cnt2 .card .title p,
+.cnt2 .card .title img{
+    display: inline-block;
+    width: 30%;
+    vertical-align: middle;
+}
+.cnt2 .card .title img {
+    margin-right: 20px;
+}
+.cnt2 .card .title p{
+    width: 60%;
+    font-size: 16px;
+    font-weight: 600;
+}
